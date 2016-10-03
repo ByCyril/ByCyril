@@ -3329,6 +3329,88 @@
 	}
 
 /* Banner */
+#bannerPezy {
+		background-attachment: fixed;
+		background-color: #272833;
+		background-image: url("../../images/image.png");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.75);
+		min-height: 100vh;
+		position: relative;
+		text-align: center;
+		z-index: 21;
+		height: : 100%;
+	}
+#bannerPezy:before {
+			content: '';
+			display: inline-block;
+			height: 100vh;
+			vertical-align: middle;
+			width: 1%;
+		}
+
+		#bannerPezy:after {
+			background-image: -moz-linear-gradient(top, rgba(252, 255, 247, 0.25), rgba(23, 24, 32, 0.95)), url("images/pezyre.png");
+   			background-image: -webkit-linear-gradient(top, rgba(252, 255, 247, 0.25), rgba(23, 24, 32, 0.95)), url("images/pezyre.png");
+			background-image: -ms-linear-gradient(top, rgba(252, 255, 247, 0.25), rgba(23, 24, 32, 0.95)), url("images/pezyre.png");
+			background-image: linear-gradient(top, rgba(252, 255, 247, 0.25), rgba(23, 24, 32, 0.95)), url("images/pezyre.png");
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			overflow: hidden;
+		}
+
+		#bannerPezy .content {
+			display: inline-block;
+			margin-right: 40%;
+			max-width: 95%;
+			padding: 6em;
+			position: relative;
+			text-align: right;
+			vertical-align: middle;
+			z-index: 1;
+		}
+
+		#bannerPezy .content header {
+				display: inline-block;
+				vertical-align: middle;
+			}
+
+				#bannerPezy .content header h2 {
+					font-size: 5em;
+					margin: 0;
+				}
+
+				#bannerPezy .content header p {
+					margin: 0.5em 0 0 0;
+					top: 0;
+				}
+
+			#bannerPezy .content .image {
+				border-radius: 100%;
+				display: inline-block;
+				height: 18em;
+				margin-left: 3em;
+				vertical-align: middle;
+				width: 18em;
+			}
+
+				#bannerPezy .content .image img {
+					border-radius: 100%;
+					display: block;
+					width: 100%;
+				}
+
+	body.is-touch #bannerPezy {
+		background-attachment: scroll;
+	}
 
 	#banner {
 		background-attachment: fixed;
