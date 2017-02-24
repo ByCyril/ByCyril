@@ -1,163 +1,66 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
+
+<VirtualHost www.bycyril.com:443>
+	ServerName www.bycyril.com
+	
+	SSLEngine on
+	SSLCertificateKeyFile /etc/apache2/ssl/www.bycyril.com.key
+	SSLCertificateFile /etc/apache2/ssl/www.bycyril.com.cert
+	SetEnvIf User-Agent ".*MSIE.*" nokeepalive ssl-unclean-shutdown
+
+	# ...
+</VirtualHost>
 	<head>
 		<title>By Cyril</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body class="landing">
-		<div id="page-wrapper">
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html">By Cyril</a></h1>
-					
-				</header>
+				<!-- Header -->
+					<header id="header">
+						<h1>Cyril Garcia</h1>
+						<!-- <h2>(Beta)</h2> -->
+						<p>Hobbyist &nbsp;&bull;&nbsp; iOS Engineer &nbsp;&bull;&nbsp; Student</p>
+						<nav>
+							<ul>
+								<li><a href="Apps/apps.html" class="icon fa-apple"><span class="label">Apps</span><label title="Hello">My Apps</label></a></li>
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>Just apps</h2>
-							<p>Mother flipping apps.<br />
-							</p>
-						</header>
-						<!-- <span class="image"><img src="images/IMG_0020.jpg" alt="" /></span> -->
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
+								<li><a href="Apps/developer.html" class="icon fa-user"><span class="label">Profile</span><label title="Hello">Profile</label></a></li>
 
-			<!-- One -->
-				<section id="one" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/bl.png" alt="" /></span>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="4u 12u$(medium)">
-									<header>
-										<h2>Block Climbing</h2>
-										<p>I'm just a ball, trying to move up the screen.</p>
-										<!-- https://itunes.apple.com/us/app/block-climbing/id1140262924?ls=1&mt=8 -->
-										<a href="blockclimbing.html">Download for iOS</a>
+								<li><a href="https://www.linkedin.com/in/garciacy" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span><label title="Hello">LinkedIn</label></a></li>
 
-									</header>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
+								<li><a href="https://github.com/cyrilivargarcia" target="_blank" class="icon fa-github"><span class="label">Github</span><label title="Hello">GitHub</label></a></li>
 
-			<!-- Two -->
-				<section id="two" class="spotlight style3 left">
-					<span class="image fit main"><img src="images/clqnew.png" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>CalQ</h2>
-							<p>A smarter way to calculate sales taxes, discounts and tips!</p>
-							<a href="https://itunes.apple.com/us/app/calq/id1134991064?ls=1&mt=8">Download for iOS</a>
+								<li><a href="http://stackoverflow.com/story/garciacy" target="_blank" class="icon fa-stack-overflow"><span class="label">StackOverflow</span><label title="Hello">Stack Story</label></a></li>
 
-						</header>
-						
-					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
-
-			<!-- Three -->
-				<section id="three" class="spotlight style2 right">
-					<span class="image fit main bottom"><img src="images/pezyre.png" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Pezy</h2>
-							<p>The bubble game!</p>
-							<a href="https://itunes.apple.com/us/app/pezy/id1101974637?ls=1&mt=8">Download for iOS</a>
-
-						</header>
-						
-					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
-
-	<section id="four" class="spotlight style3 left">
-					<span class="image fit main"><img src="images/behin.png" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Behind the Apps</h2>
-							<p>Cyril, a young hobbyist who started his iOS Development career at a young age at 16. Tech savvy, Cyril has exclusively developed mobile applications for iOS in Swift and Objective-C; many of which are published in the app store. Aside from his work behind the computer, Cy loves to spend his spare time playing basketball with his buddies and venturing around the city for great places to eat!</p>
-						</header>
-						
-					</div>
-					<a href="#five" class="goto-next scrolly">Next</a>
-				</section>
-
-
- 
-			<!-- Four -->
-				<section id="five" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>Favorite Apps By Cyril</h2>
-							<p>Checkout some of my favorite apps made by my friends!</p>
-						</header>
-				
-						</div>
-						<footer class="major">
-							<ul class="actions">
-								<li><a href="FavoriteAppsByCyril.html" class="button">Favorite Apps By Cyril</a></li>
+								<li><a href="mailto:garciacy1@gmail.com?subject=" class="icon fa-envelope-o"><span class="label">Email</span><label title="Hello">Email</label></a></li>
 							</ul>
-						</footer>
-					</div>
-				</section>
+						</nav>
+					</header>
 
-			<!-- Five -->
-				<section id="five" class="wrapper style2 special fade">
-					<div class="container">
-						<header>
-							<h2>Connect with me!</h2>
-							<p></p>
-						</header>
-						<ul class="icons">
-						<!-- <li><a href="https://www.facebook.com/cyrilivargarcia" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li> -->
-						<li><a href="https://www.linkedin.com/in/garciacy" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://www.instagram.com/cyrilivargarcia/" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="https://github.com" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="garciacy1@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					</div>
-				</section>
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="">By Cyril<a href="#"></a></span>
+					</footer>
 
-			<!-- Footer -->
-				<footer id="">
-					
-					<div class="container">
-
-						<p><center>© By Cyril. All rights reserved. Designed: HTML5 UP</center></p>
-
-
-					</div>
-				</footer>
-
+			</div>
 		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
