@@ -2,9 +2,15 @@
 
 <html>
 
+<style>
+.label {
+	margin-top: 2px;
+}
+</style>
+
 <VirtualHost www.bycyril.com:443>
 	ServerName www.bycyril.com
-	
+
 	SSLEngine on
 	SSLCertificateKeyFile /etc/apache2/ssl/www.bycyril.com.key
 	SSLCertificateFile /etc/apache2/ssl/www.bycyril.com.cert
