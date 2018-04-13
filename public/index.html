@@ -7,7 +7,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 			<link rel="stylesheet" href="assets/css/main.css" />
 			<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
+			<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
 	</head>
 	<body>
 
@@ -39,10 +39,10 @@
 							<li>Code Coach, theCoderSchool in Cupertino<br/>July 2017 - present</li>
 							<p>Teaching basic computer programming to iOS and Web Development.</p>
 
-							<li>iOS Engineer Intern, Freshpep in Fremont<br/>March 2017 - May 2017</li>
+							<li>iOS Developer Intern, Freshpep in Fremont<br/>March 2017 - May 2017</li>
 							<p>Developed and designed the FreshPep iOS Application.</p>
 
-							<li>iOS Engineer Intern, Ren<br/>January 2017 - March 2017</li>
+							<li>iOS Developer Intern, Ren<br/>January 2017 - March 2017</li>
 							<p>Improved on the Ren iOS Application</p>
 
 							<li>LinkedIn High School Mentorship Program, LinkedIn in Mountain View<br/>March 2015 - May 2015</li>
@@ -80,20 +80,23 @@
 
 						<ul>
 							<li>GeekWeather (iOS)</li>
-							<p>A dynamic weather app. <a href="https://geekweather.net/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnPMZge3%2BRru71PmqFFhdsA%3D%3D" style="color: #D5FE16;" target="_blank">View</a></p>
-
+							<p>A dynamic weather app. <a id="geekweather" class="projects" href="https://geekweather.net/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnPMZge3%2BRru71PmqFFhdsA%3D%3D" style="color: #D5FE16;" target="_blank">View</a></p>
 
 							<li>SwiftyCoreData  (open Source)</li>
-							<p>An elegant solution to use CoreData for iOS. <a href="https://github.com/cyrilivargarcia/SwiftyCoreData?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnPMZge3%2BRru71PmqFFhdsA%3D%3D" style="color: #D5FE16;" target="_blank">View</a></p>
+							<p>An elegant solution to use CoreData for iOS. <a id="swiftycoredata" class="projects" href="https://github.com/cyrilivargarcia/SwiftyCoreData?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnPMZge3%2BRru71PmqFFhdsA%3D%3D" style="color: #D5FE16;" target="_blank">View</a></p>
 
 							<li>FileStorks.com (web)</li>
-							<p>Easy file sharing system. <a href="https://filestorks.com/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnPMZge3%2BRru71PmqFFhdsA%3D%3D" style="color: #D5FE16;" target="_blank">View</a></p>
+							<p>Easy file sharing system. <a id="filestorks" class="projects" href="https://filestorks.com/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnPMZge3%2BRru71PmqFFhdsA%3D%3D" style="color: #D5FE16;" target="_blank">View</a></p>
 
 							<li>Pubble (iOS)</li>
-							<p>A simple iOS math game! <a href="https://itunes.apple.com/us/app/pubble-a-simple-math-game/id1189780392?ls=1&mt=8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnPMZge3%2BRru71PmqFFhdsA%3D%3D" style="color: #D5FE16;" target="_blank">View</a></p>
+							<p>A simple iOS math game! <a id="pubble" class="projects" href="https://itunes.apple.com/us/app/pubble-a-simple-math-game/id1189780392?ls=1&mt=8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BnPMZge3%2BRru71PmqFFhdsA%3D%3D" style="color: #D5FE16;" target="_blank">View</a></p>
 
 							<li>Spinners  (open Source)</li>
-							<p>Dynamic activity indicator library <a href="https://github.com/cyrilivargarcia/Spinners" style="color: #D5FE16;" target="_blank">View</a></p>
+							<p>Dynamic activity indicator library <a id="spinners" class="projects" href="https://github.com/cyrilivargarcia/Spinners" style="color: #D5FE16;" target="_blank">View</a></p>
+
+							<li>SnakeAI  (mini web project)</li>
+							<p>A simple snake game with AI <a id="snakeai" class="projects" href="https://snake-ai.firebaseapp.com" style="color: #D5FE16;" target="_blank">View</a></p>
+
 						</ul>
 
 
@@ -108,20 +111,19 @@
 
 						<ul>
 							<li>LinkedIn</li>
-							
-							<a href="https://www.linkedin.com/in/garciacy" style="color: #D5FE16;" target="_blank">linkedin.com/in/garciacy</a>
+							<a id="linkedin" class="network" href="https://www.linkedin.com/in/garciacy" style="color: #D5FE16;" target="_blank">linkedin.com/in/garciacy</a>
 							<br><br><br>
 							<li>GitHub</li>
-							<a href="https://github.com/cyrilivargarcia" style="color: #D5FE16;" target="_blank">github.com/cyrilivargarcia </a>
+							<a id="github" class="network" href="https://github.com/cyrilivargarcia" style="color: #D5FE16;" target="_blank">github.com/cyrilivargarcia </a>
 							<br><br><br>
 							<li>StackOverflow</li>
-							<a href="https://stackoverflow.com/users/4015879/cyril-ivar-garcia" style="color: #D5FE16;" target="_blank">stackoverflow.com/users/cyril-ivar-garcia</a>
+							<a id="stackoverflow" class="network" href="https://stackoverflow.com/users/4015879/cyril-ivar-garcia" style="color: #D5FE16;" target="_blank">stackoverflow.com/users/cyril-ivar-garcia</a>
 							<br><br><br>
 							<li>Email</li>
-							<a style="color: #D5FE16;">garciacy@bycyril.com</a>
+							<a id="email" class="network" style="color: #D5FE16;">garciacy@bycyril.com</a>
 							<br><br><br>
 							<li>Resume</li>
-							<a href="CyrilGarciaResume.pdf" style="color: #D5FE16;" target="_blank">CyrilGarciaResume.pdf</a>
+							<a id="resume" class="network" href="CyrilGarciaResume.pdf" style="color: #D5FE16;" target="_blank">CyrilGarciaResume.pdf</a>
 						</ul>
 
 					</div>
@@ -131,9 +133,9 @@
 		</div>
 
 
-		
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/firebase/firebase.js"></script>
 			<script src="assets/js/main.js"></script>
 
 
