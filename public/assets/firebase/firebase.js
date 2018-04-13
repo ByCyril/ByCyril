@@ -28,19 +28,14 @@ function getNumberOfVisits() {
 
 function updateVisitCount(count) {
 
-  var dt = new Date();
-  var utcDate = dt.toUTCString();
-
   database.ref('visits').set({
     count: count,
-    timestamp: utcDate
+    timestamp: getTimeStamp()
   });
 
 }
 
 function getNumberOfClicks(category, link) {
-  console.log(category);
-    console.log(link);
 
   database.ref(category + "/" + link).once('value').then(function(snapshot) {
 
@@ -57,15 +52,34 @@ function getNumberOfClicks(category, link) {
 }
 
 function updateClickCount(category, link, count) {
-  var dt = new Date();
-  var utcDate = dt.toUTCString();
 
   database.ref(category + "/" + link).set({
     count: count,
-    timestamp: utcDate
+    timestamp: getTimeStamp(),
+    link: link
   });
 }
 
+function getTimeStamp() {
+
+  var date = new Date();
+  var hour = date.getHours();
+  var min = date.getMinutes();
+  var day = date.getDate();
+  var month = date.getMonth() + 1;
+  var year = date.getFullYear();
+  var timestamp;
+
+  if (hour > 12) {
+    hour = hour - 12;
+    timestamp = month + "/" + day + "/" + year + " " + hour + ":" + min + "PM";
+
+  } else {
+    timestamp = month + "/" + day + "/" + year + " " + hour + ":" + min + "AM";
+  }
+
+  return timestamp;
+}
 
 getNumberOfVisits();
 
