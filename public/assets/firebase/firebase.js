@@ -18,7 +18,6 @@ function getNumberOfVisits() {
   database.ref('visits').once('value').then(function(snapshot) {
     if (snapshot.val() == null) {
       this.updateVisitCount(1);
-
     } else {
       var count = snapshot.val().count;
       count++;
@@ -74,11 +73,11 @@ getNumberOfVisits();
 $(document).ready(function() {
 
     $("a").click(function(event) {
+
       var id = event.target.id;
       var cls = $('#'+id).attr('class');
-
-
       getNumberOfClicks(cls, id);
+
     });
 })
 
