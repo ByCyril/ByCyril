@@ -14,8 +14,9 @@ firebase.initializeApp(config);
 var database = firebase.database();
 
 function getNumberOfVisits() {
-  
-  database.ref('visits').once('value').then(function(snapshot) {
+  let date = getTimeStamp();
+
+  database.ref('visits/' + String(date)).once('value').then(function(snapshot) {
     if (snapshot.val() == null) {
       this.updateVisitCount(1);
     } else {
@@ -28,7 +29,9 @@ function getNumberOfVisits() {
 
 function updateVisitCount(count) {
 
-  database.ref('visits').set({
+  let date = getTimeStamp();
+
+  database.ref('visits/' + String(date)).set({
     count: count,
     timestamp: getTimeStamp()
   });
@@ -36,8 +39,9 @@ function updateVisitCount(count) {
 }
 
 function getNumberOfClicks(category, link) {
+  let date = String(getTimeStamp());
 
-  database.ref(category + "/" + link).once('value').then(function(snapshot) {
+  database.ref(category + "/" + link + "/" + date).once('value').then(function(snapshot) {
 
     if (snapshot.val() == null) {
         this.updateClickCount(category, link, 1);
@@ -72,10 +76,10 @@ function getTimeStamp() {
 
   if (hour > 12) {
     hour = hour - 12;
-    timestamp = month + "/" + day + "/" + year + " " + hour + ":" + min + "PM";
+    timestamp = month + "-" + day + "-" + year + " " + hour + ":" + min + "PM";
 
   } else {
-    timestamp = month + "/" + day + "/" + year + " " + hour + ":" + min + "AM";
+    timestamp = month + "-" + day + "-" + year + " " + hour + ":" + min + "AM";
   }
 
   return timestamp;
