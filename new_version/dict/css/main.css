@@ -169,7 +169,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "sectionheader sectionheader sectionheader" "job1 job2 job3" "job4 job5 job5" "edheader edheader edheader" "education1 education2 education3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -179,16 +179,42 @@ main {
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
+  .about-info .section-header {
+    grid-area: sectionheader; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
     grid-area: job2; }
   .about-info .job-3 {
     grid-area: job3; }
-  .about-info .job {
+  .about-info .ed-header {
+    grid-area: edheader; }
+  .about-info .education-1 {
+    grid-area: education1; }
+  .about-info .education-2 {
+    grid-area: education2; }
+  .about-info .education-3 {
+    grid-area: education3; }
+  .about-info .job,
+  .about-info .education {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr); }
+  .projects img {
+    width: 100%;
+    border: 3px #fff solid; }
+    .projects img:hover {
+      opacity: 0.5;
+      border-color: #eece1a;
+      transition: all 0.35s ease-out; }
+  .projects a:hover {
+    color: #eece1a;
+    transition: all 0.35s ease-out; }
 
 #main-footer {
   text-align: center;
@@ -224,7 +250,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bioimage" "bio" "sectionheader" "job1" "job2" "job3" "job4" "job5" "edheader" "education1" "education2" "education3";
     grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {

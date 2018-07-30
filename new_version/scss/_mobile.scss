@@ -45,9 +45,16 @@
     grid-template-areas:
       "bioimage"
       "bio"
+      "sectionheader"
       "job1"
       "job2"
-      "job3";
+      "job3"
+      "job4"
+      "job5"
+      "edheader"
+      "education1"
+      "education2"
+      "education3";
 
     grid-template-columns: 1fr;
   }
