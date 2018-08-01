@@ -223,6 +223,29 @@ main {
   color: #fff;
   height: 60px; }
 
+.open-source-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "open-source-1" "open-source-2" "open-source-3" "open-source-4";
+  grid-template-columns: repeat(1, 1fr); }
+  .open-source-info .open-source-1 {
+    grid-area: open-source-1; }
+  .open-source-info .open-source-2 {
+    grid-area: open-source-2; }
+  .open-source-info .open-source-3 {
+    grid-area: open-source-3; }
+  .open-source-info .open-source-4 {
+    grid-area: open-source-4; }
+  .open-source-info .opensource {
+    background: #515151;
+    padding: 0.5rem;
+    border-bottom: #eece1a 5px solid; }
+  .open-source-info h3 {
+    font-weight: bold; }
+  .open-source-info a:hover {
+    color: #eece1a;
+    transition: all 0.35s ease-out; }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
