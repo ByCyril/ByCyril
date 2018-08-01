@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -57,7 +57,8 @@
       height: 250px;
       background: url(../img/portrait.jpg);
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #eece1a;
+      opacity: 1; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.35s ease-out; }
@@ -90,14 +91,9 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-.nav-item:nth-child(5) {
-  transition-delay: 0.5s; }
-
-.nav-item:nth-child(6) {
-  transition-delay: 0.6s; }
-
-.nav-item:nth-child(7) {
-  transition-delay: 0.7s; }
+.name {
+  padding-top: 30px;
+  font-size: 50px; }
 
 * {
   box-sizing: border-box; }
@@ -262,19 +258,23 @@ main {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 75vh;
+    height: 65vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
-    height: 25vh;
+    height: 35vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../img/portrait.jpg);
+      background: url(../img/portrait_3.jpg);
       width: 150px;
       height: 150px; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "sectionheader" "job1" "job2" "job3" "job4" "job5" "edheader" "education1" "education2" "education3";
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .projects {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {

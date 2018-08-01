@@ -4,7 +4,7 @@ $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.8;
 $large-profile-image: url(../img/portrait.jpg);
-
+$small-profile-image: url(../img/portrait_3.jpg);
 @mixin easeOut {
   transition: all 0.35s ease-out;
 }
