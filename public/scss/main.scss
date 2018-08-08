@@ -155,9 +155,6 @@ main {
   }
 }
 
-.btn {
-}
-
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -194,6 +191,65 @@ main {
   }
 
   .opensource {
+    background: lighten($primary-color, 5);
+    padding: 0.5rem;
+    border-bottom: $secondary-color 5px solid;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  a {
+    &:hover {
+      color: $secondary-color;
+      @include easeOut;
+    }
+  }
+}
+
+.ai-projects-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+    "ai-projects-1"
+    "ai-projects-2"
+    "ai-projects-3"
+    "ai-projects-4"
+    "ai-projects-5"
+    "ai-projects-6"
+    "ai-projects-7";
+
+  grid-template-columns: repeat(1, 1fr);
+
+  .ai-projects-1 {
+    grid-area: ai-projects-1;
+  }
+
+  .ai-projects-2 {
+    grid-area: ai-projects-2;
+  }
+
+  .ai-projects-3 {
+    grid-area: ai-projects-3;
+  }
+
+  .ai-projects-4 {
+    grid-area: ai-projects-4;
+  }
+
+  .ai-projects-5 {
+    grid-area: ai-projects-5;
+  }
+
+  .ai-projects-6 {
+    grid-area: ai-projects-6;
+  }
+
+  .ai-projects-7 {
+    grid-area: ai-projects-7;
+  }
+  .aiprojects {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
