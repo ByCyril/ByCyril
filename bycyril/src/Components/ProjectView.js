@@ -11,7 +11,7 @@ class ProjectView extends Component {
         technologies: "Swift, UIKit, Firebase",
         link:
           "https://itunes.apple.com/us/app/memo-a-better-notes-app/id1447065759?mt=8&fbclid=IwAR2ulbPB5ACmsAruwbUjt_yLph-yNQNCCcoTAAZjWa210meC-uzbqAnMY5E",
-        img: "",
+        img: "../img/memo.jpeg",
         releaseDate: "January 8, 2019"
       },
       {
@@ -20,7 +20,7 @@ class ProjectView extends Component {
         description: "A simple weather app with a fresh design.",
         technologies: "Swift, UIKit, Firebase, Alamofire",
         link: "https://itunes.apple.com/us/app/geekweather/id1330278107?mt=8",
-        img: "",
+        img: "../img/geekweather.jpeg",
         releaseDate: "January 2, 2018"
       },
       {
@@ -29,7 +29,7 @@ class ProjectView extends Component {
         description: "An easier way to share files.",
         technologies: "Javascript, JQuery, Bootstrap, Firebase",
         link: "https://filestorks.com",
-        img: "",
+        img: "../img/filestorks.jpeg",
         releaseDate: "October 5, 2017"
       }
     ]

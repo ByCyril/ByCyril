@@ -4,9 +4,12 @@ class Education extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <p>{this.props.ed.school}</p>
-        <p>{this.props.ed.years}</p>
+      <div class="card" style={{ width: "18rem" }}>
+        <div class="card-body">
+          <h5 class="card-title">{this.props.ed.school}</h5>
+          <p class="card-text">{this.props.ed.major}</p>
+          <p class="card-text">{this.props.ed.years}</p>
+        </div>
       </div>
     );
   }
