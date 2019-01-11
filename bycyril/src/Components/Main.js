@@ -1,32 +1,54 @@
 import React, { Component } from "react";
 import "../styles/Main.css";
-import ProjectView from "./ProjectView";
-import AboutView from "./AboutView";
-import HomeView from "./HomeView";
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import Projects from "./Projects";
+import About from "./About";
+import Home from "./Home";
+import Blog from "./Blog";
+import { Route, HashRouter, Link } from "react-router-dom";
 
-class App extends Component {
+import { Nav, NavItem, NavLink } from "reactstrap";
+
+class Main extends Component {
   render() {
     return (
       <HashRouter>
         <div>
-          <h1>By Cyril</h1>
-          <ul className="header">
-            <li>
-              <NavLink to="/HomeView">Home</NavLink>
-            </li>
-            <li>
-              <NavLink to="/AboutView">About</NavLink>
-            </li>
-            <li>
-              <NavLink to="/ProjectsView">Projects</NavLink>
-            </li>
-          </ul>
+          <h1 className="display-4">
+            By Cyril
+            <span className="lead" style={{ marginLeft: "20px" }}>
+              Creator of Memo
+            </span>
+          </h1>
+          <div>
+            <Nav tabs>
+              <NavItem>
+                <NavLink style={{ color: "black" }} tag={Link} to="/Home">
+                  Home
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink style={{ color: "black" }} tag={Link} to="/About">
+                  About
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink style={{ color: "black" }} tag={Link} to="/Projects">
+                  Projects
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink style={{ color: "black" }} tag={Link} to="/Blog">
+                  Blog
+                </NavLink>
+              </NavItem>
+            </Nav>
+          </div>
 
           <div className="content">
-            <Route path="/HomeView" component={HomeView} />
-            <Route path="/AboutView" component={AboutView} />
-            <Route path="/ProjectsView" component={ProjectView} />
+            <Route path="/Home" component={Home} />
+            <Route path="/About" component={About} />
+            <Route path="/Projects" component={Projects} />
+            <Route path="/Blog" component={Blog} />
           </div>
         </div>
       </HashRouter>
@@ -34,4 +56,8 @@ class App extends Component {
   }
 }
 
-export default App;
+{
+  /* <NavLink to="/HomeView">Home</NavLink> */
+}
+
+export default Main;
