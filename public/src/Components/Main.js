@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "../styles/Main.css";
+import "../Main.css";
 import Projects from "./Projects";
 import About from "./About";
 import Home from "./Home";
 import Blog from "./Blog";
-import { Route, HashRouter, Link } from "react-router-dom";
+import { Route, HashRouter, Link, Redirect } from "react-router-dom";
 
 import { Nav, NavItem, NavLink } from "reactstrap";
 
@@ -43,7 +43,7 @@ class Main extends Component {
               </NavItem>
             </Nav>
           </div>
-
+          <Redirect from="/" to="Home" />
           <div className="content">
             <Route path="/Home" component={Home} />
             <Route path="/About" component={About} />
