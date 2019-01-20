@@ -4,6 +4,14 @@ class Blog extends Component {
   state = {
     articles: [
       {
+        title: "Best Resources and Practices for Aspiring iOS Developers",
+        description:
+          "The vast amount of content and resources within the iOS Development community, has made this specialty the easiest and the most welcoming for beginners who want to pursue a career in Computer Science or just as a hobby. The only question is how and where do you start?",
+        published: "Medium | January 19, 2019",
+        link:
+          "https://medium.com/@cyrilivargarcia/best-resources-and-practices-for-aspiring-ios-developers-2f4d1de7388f"
+      },
+      {
         title: "The State of Artificial Intelligence",
         description:
           "Recent advancements in Artificial Intelligence and super computers, set of worry that systems would one day supersede human intelligence; capable enough to advance on its own and escaping human control.",
