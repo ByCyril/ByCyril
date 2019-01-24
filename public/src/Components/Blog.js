@@ -4,6 +4,14 @@ class Blog extends Component {
   state = {
     articles: [
       {
+        title: "iOS Development Fundamentals with Connect Four",
+        description:
+          "This tutorial is focused on iOS Development fundamentals as oppose to how to build Connect Four in iOS.",
+        published: "Medium | January 22, 2019",
+        link:
+          "https://medium.com/@cyrilivargarcia/develop-connect-four-from-scratch-in-ios-84b38ce14380"
+      },
+      {
         title: "Best Resources and Practices for Aspiring iOS Developers",
         description:
           "The vast amount of content and resources within the iOS Development community, has made this specialty the easiest and the most welcoming for beginners who want to pursue a career in Computer Science or just as a hobby. The only question is how and where do you start?",

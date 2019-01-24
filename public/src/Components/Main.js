@@ -13,12 +13,8 @@ class Main extends Component {
     return (
       <HashRouter>
         <div>
-          <h1 className="display-4">
-            By Cyril
-            <span className="lead" style={{ marginLeft: "20px" }}>
-              Creator of Memo
-            </span>
-          </h1>
+          <h1 className="display-4">By Cyril</h1>
+          <h6>Creator of Memo, GeekWeather, and FileStorks.com</h6>
           <div>
             <Nav tabs>
               <NavItem>
