@@ -4,6 +4,14 @@ class Blog extends Component {
   state = {
     articles: [
       {
+        title: "Accessibility in iOS",
+        description:
+          "Accessibility is one of the most overlooked features in iOS Development. However, Apples accessibility API has made it easier for us to implement it. Here is a quick introduction on how to get started!",
+        published: "Medium | January 26, 2019",
+        link:
+          "https://medium.com/@cyrilivargarcia/accessibility-in-ios-2d1db18bd981"
+      },
+      {
         title: "iOS Development Fundamentals with Connect Four",
         description:
           "This tutorial is focused on iOS Development fundamentals as oppose to how to build Connect Four in iOS.",
