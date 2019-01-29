@@ -6,7 +6,7 @@ class MyNav extends Component {
   render() {
     return (
       <nav
-        className="navbar navbar-dark"
+        className="navbar navbar-dark fixed-top"
         style={{ backgroundColor: "#5D5D5D", fontSize: "20px" }}
       >
         <NavLink className="nav-link" style={{ color: "white" }} exact to="/">
