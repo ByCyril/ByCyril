@@ -4,50 +4,48 @@ import Projects from "./Projects";
 import About from "./About";
 import Home from "./Home";
 import Blog from "./Blog";
-import { Route, HashRouter, Link, Redirect } from "react-router-dom";
-
-import { Nav, NavItem, NavLink } from "reactstrap";
+import { Route, NavLink } from "react-router-dom";
 
 class Main extends Component {
   render() {
     return (
-      <HashRouter>
-        <div>
-          <h1 className="display-4">By Cyril</h1>
-          <h6>Creator of Memo, GeekWeather, and FileStorks.com</h6>
-          <div>
-            <Nav tabs>
-              <NavItem>
-                <NavLink style={{ color: "black" }} tag={Link} to="/Home">
+      <div className="container">
+        <h1 className="display-4">By Cyril</h1>
+        {/* <h6>Creator of Memo, GeekWeather, and FileStorks.com</h6> */}
+        <nav className="navbar navbar-expand-lg navbar-light ">
+          <div className="collapse navbar-collapse container" id="navbarNav">
+            <ul className="navbar-nav container">
+              <li className="nav-item">
+                <NavLink className="nav-link" exact to="/">
                   Home
                 </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink style={{ color: "black" }} tag={Link} to="/About">
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" exact to="/about">
                   About
                 </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink style={{ color: "black" }} tag={Link} to="/Projects">
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" exact to="/projects">
                   Projects
                 </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink style={{ color: "black" }} tag={Link} to="/Blog">
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" exact to="/blog">
                   Blog
                 </NavLink>
-              </NavItem>
-            </Nav>
+              </li>
+            </ul>
           </div>
-          <Redirect from="/" to="Home" />
-          <div className="content">
-            <Route path="/Home" component={Home} />
-            <Route path="/About" component={About} />
-            <Route path="/Projects" component={Projects} />
-            <Route path="/Blog" component={Blog} />
-          </div>
-        </div>
-      </HashRouter>
+        </nav>
+
+        {/* <div className="content"> */}
+        <Route exact path="/" component={Home} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Projects" component={Projects} />
+        <Route exact path="/Blog" component={Blog} />
+        {/* </div> */}
+      </div>
     );
   }
 }

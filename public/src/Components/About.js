@@ -62,31 +62,31 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Jumbotron>
-          <Container>
-            <h1 className="display-3">About</h1>
-            <div style={{ marginBottom: "20px" }}>
-              <h2 className="display-4">Experience</h2>
-              <hr className="my-3" />
-              <Row>
-                {this.state.experience.map(exp => (
-                  <Experience key={exp.id} exp={exp} />
-                ))}
-              </Row>
-            </div>
+        {/* <Jumbotron> */}
+        <Container>
+          <h1 className="display-3">About</h1>
+          <div style={{ marginBottom: "20px" }}>
+            <h2 className="display-4">Experience</h2>
+            <hr className="my-3" />
+            <Row>
+              {this.state.experience.map(exp => (
+                <Experience key={exp.id} exp={exp} />
+              ))}
+            </Row>
+          </div>
 
-            <div>
-              <h2 className="display-4">Education</h2>
-              <hr className="my-3" />
+          <div>
+            <h2 className="display-4">Education</h2>
+            <hr className="my-3" />
 
-              <Row>
-                {this.state.education.map(ed => (
-                  <Education key={ed.id} ed={ed} />
-                ))}
-              </Row>
-            </div>
-          </Container>
-        </Jumbotron>
+            <Row>
+              {this.state.education.map(ed => (
+                <Education key={ed.id} ed={ed} />
+              ))}
+            </Row>
+          </div>
+        </Container>
+        {/* </Jumbotron> */}
       </div>
     );
   }

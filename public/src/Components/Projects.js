@@ -39,18 +39,18 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <Jumbotron>
-          <Container>
-            <h1 className="display-3">Projects</h1>
+        {/* <Jumbotron> */}
+        <Container>
+          <h1 className="display-3">Projects</h1>
 
-            <Row>
-              {this.state.projects.map(project => (
-                <Proj key={project.id} project={project} />
-              ))}
-            </Row>
-            <hr className="my-2" />
-          </Container>
-        </Jumbotron>
+          <Row>
+            {this.state.projects.map(project => (
+              <Proj key={project.id} project={project} />
+            ))}
+          </Row>
+          {/* <hr className="my-2" /> */}
+        </Container>
+        {/* </Jumbotron> */}
       </div>
     );
   }
