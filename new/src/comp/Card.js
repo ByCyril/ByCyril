@@ -6,18 +6,19 @@ class Card extends Component {
     return (
       <div className="col-sm-6">
         <div className="card text-center">
-          <div className="card-header">Digital Media Academy</div>
+          <div className="card-header">{this.props.exp.company}</div>
           <div className="card-body">
             <h5 className="card-text">
-              <code>Instructor</code>
+              <code>{this.props.exp.title}</code>
             </h5>
             <p style={{ fontSize: "17px" }} className="card-title">
-              Taught Computer Science, iOS Development, and AI and Machine
-              Learning.
+              {this.props.exp.description}
             </p>
           </div>
 
-          <div className="card-footer text-muted">June 2018 - August 2018</div>
+          <div className="card-footer text-muted" style={{ fontSize: "20px" }}>
+            {this.props.exp.date}
+          </div>
         </div>
         <br />
       </div>
