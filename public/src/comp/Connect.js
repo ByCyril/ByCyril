@@ -10,15 +10,24 @@ class Connect extends Component {
         <p>
           Connect with me on{" "}
           <code>
-            <a href="#">LinkedIn</a>
+            <a
+              className="styles"
+              href="https://www.linkedin.com/in/cyrilivargarcia/"
+            >
+              LinkedIn
+            </a>
           </code>
           ,{" "}
           <code>
-            <a href="#">Twitter</a>
+            <a className="styles" href="https://twitter.com/cyrilivargarcia">
+              Twitter
+            </a>
           </code>
           , or{" "}
           <code>
-            <a href="#">GitHub</a>
+            <a className="styles" href="https://github.com/cyrilivargarcia">
+              GitHub
+            </a>
           </code>
         </p>
       </div>

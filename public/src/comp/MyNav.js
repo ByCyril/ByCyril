@@ -27,7 +27,7 @@ class MyNav extends Component {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" exact to="/connect">
-                Contact
+                Connect
               </NavLink>
             </li>
           </ul>

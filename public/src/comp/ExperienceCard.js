@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Card extends Component {
+class ExperienceCard extends Component {
   state = {};
   render() {
     return (
@@ -26,4 +26,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default ExperienceCard;

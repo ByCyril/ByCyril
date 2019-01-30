@@ -8,6 +8,9 @@
   height: 40vmin;
 }
 
+.styles {
+  color: #e83e8c;
+}
 .App-header {
   min-height: 100vh;
   display: flex;

@@ -1,19 +1,15 @@
 {
-  "name": "bycyril",
+  "name": "new",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.12",
-    "@fortawesome/free-solid-svg-icons": "^5.6.3",
-    "@fortawesome/react-fontawesome": "^0.1.3",
     "bootstrap": "^4.2.1",
-    "font-awesome": "^4.7.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "react-pdf": "^4.0.2",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.3",
-    "react-sticky-box": "^0.7.7",
-    "reactstrap": "^7.0.2"
+    "react-scripts": "2.1.3",
+    "reactstrap": "^7.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

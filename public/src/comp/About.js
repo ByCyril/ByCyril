@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
-import Card from "./Card";
-import Experience from "../Data.js";
+import ExperienceCard from "./ExperienceCard";
+import Experience from "../ExperienceData.js";
 
 import "./Main.css";
 import "../App.css";
@@ -19,6 +19,7 @@ class About extends Component {
             <code>AI and Machine Learning</code>.
           </p>
         </div>
+
         <div
           className="App App-header"
           style={{
@@ -30,7 +31,7 @@ class About extends Component {
           <br />
           <div className="container row">
             {Experience.map(exp => (
-              <Card key={exp.company} exp={exp} />
+              <ExperienceCard key={exp.company} exp={exp} />
             ))}
           </div>
         </div>

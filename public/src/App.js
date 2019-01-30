@@ -34,15 +34,6 @@ class App extends Component {
         <Fade in={this.state.fadeIn} tag="h6" className="mt-3">
           <Route exact path="/connect" component={Connect} />
         </Fade>
-        <footer className="page-footer font-small blue">
-          <div className="footer-copyright text-center py-3">
-            © 2018 Copyright:
-            <a href="https://mdbootstrap.com/education/bootstrap/">
-              {" "}
-              MDBootstrap.com
-            </a>
-          </div>
-        </footer>
       </div>
     );
   }
