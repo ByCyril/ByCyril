@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Card from "./ExperienceCard";
+
 import "./Main.css";
 import "../App.css";
 import Projects from "../ProjectsData.js";
@@ -55,7 +55,9 @@ class Home extends Component {
             backgroundColor: "white"
           }}
         >
-          <h1 className="display-2">Projects</h1>
+          <h1 className="display-2" style={{ marginTop: "70px" }}>
+            Projects
+          </h1>
           <br />
           <div className="container row">
             {Projects.map(proj => (

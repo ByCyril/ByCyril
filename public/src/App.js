@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import { Fade } from "reactstrap";
 
 import "./App.css";
 import MyNav from "./comp/MyNav";
 import Home from "./comp/Home";
 import About from "./comp/About";
 import Connect from "./comp/Connect";
+import Footer from "./comp/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -25,24 +25,13 @@ class App extends Component {
     return (
       <div>
         <MyNav />
-        <Fade in={this.state.fadeIn} tag="h5" className="mt-3">
-          <Route exact path="/" component={Home} />
-        </Fade>
-        <Fade in={this.state.fadeIn} tag="h6" className="mt-3">
-          <Route exact path="/about" component={About} />
-        </Fade>
-        <Fade in={this.state.fadeIn} tag="h6" className="mt-3">
-          <Route exact path="/connect" component={Connect} />
-        </Fade>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/connect" component={Connect} />
+        <Footer />
       </div>
     );
   }
 }
 
 export default App;
-
-{
-  /* <NavLink exact to="/projects">
-                  Projects
-                </NavLink> */
-}

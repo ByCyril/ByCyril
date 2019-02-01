@@ -18,6 +18,14 @@ class About extends Component {
             <code>Software Engineering</code> that specializes in{" "}
             <code>AI and Machine Learning</code>.
           </p>
+
+          <br />
+          <div className="container">
+            <p>
+              I specialize in <code>iOS Engineering</code> with some experience
+              in <code>Web</code> and <code>AI</code>.
+            </p>
+          </div>
         </div>
 
         <div

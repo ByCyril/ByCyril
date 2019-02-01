@@ -11,6 +11,7 @@ class ProjectCard extends Component {
       <div className="col-sm-4">
         <div className="card">
           <img className="card-img-top" src={image} alt={myImage} />
+
           <div className="card-body">
             <h5 className="card-title text-center">{this.props.proj.title}</h5>
 
