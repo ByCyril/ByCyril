@@ -33,7 +33,7 @@ class ProjectCard extends Component {
               className="btn btn-primary btn-sm btn-block"
               style={{ backgroundColor: "#e83e8c", borderColor: "#e83e8c" }}
             >
-              View
+              {this.props.proj.buttonTitle}
             </a>
           </div>
         </div>

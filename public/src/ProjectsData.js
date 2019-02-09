@@ -6,7 +6,8 @@ const Projects = [
       "https://itunes.apple.com/us/app/memo-a-better-notes-app/id1447065759?mt=8&fbclid=IwAR2ulbPB5ACmsAruwbUjt_yLph-yNQNCCcoTAAZjWa210meC-uzbqAnMY5E",
     technologies: "Native iOS in Swift",
     releaseDate: "January 2019",
-    img: "memo.jpeg"
+    img: "memo.jpeg",
+    buttonTitle: "View on App Store"
   },
 
   {
@@ -15,7 +16,8 @@ const Projects = [
     link: "https://itunes.apple.com/us/app/geekweather/id1330278107?mt=8",
     technologies: "Native iOS in Swift",
     releaseDate: "January 2018",
-    img: "geekweather.jpeg"
+    img: "geekweather.jpeg",
+    buttonTitle: "View on App Store"
   },
 
   {
@@ -24,7 +26,8 @@ const Projects = [
     link: "https://filestorks.com",
     technologies: "HTML, CSS, Javascript, and JQuery",
     releaseDate: "October 2017",
-    img: "filestorks.jpeg"
+    img: "filestorks.jpeg",
+    buttonTitle: "View the Site"
   },
   {
     title: "CoreDataBC",
@@ -32,7 +35,8 @@ const Projects = [
     link: "https://github.com/cyrilivargarcia/CoreDataBC",
     technologies: "Swift",
     releaseDate: "September 2018",
-    img: "coredatabc.jpeg"
+    img: "coredatabc.jpeg",
+    buttonTitle: "View on GitHub"
   },
   {
     title: "VisionLive",
@@ -40,7 +44,8 @@ const Projects = [
     link: "https://github.com/cyrilivargarcia/VisionLive",
     technologies: "Native iOS in Swift",
     releaseDate: "July 2018",
-    img: "visionlive.jpeg"
+    img: "visionlive.jpeg",
+    buttonTitle: "View on GitHub"
   },
   {
     title: "TicTacToeAI",
@@ -49,7 +54,8 @@ const Projects = [
     link: "https://github.com/cyrilivargarcia/TicTacToeAI",
     technologies: "Native iOS in Swift",
     releaseDate: "January 2019",
-    img: "tictactoeai.jpeg"
+    img: "tictactoeai.jpeg",
+    buttonTitle: "View on GitHub"
   }
 ];
 

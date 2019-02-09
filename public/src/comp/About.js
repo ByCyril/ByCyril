@@ -13,19 +13,13 @@ class About extends Component {
         <div className="App App-header">
           <h1 className="display-1">About</h1>
           <p style={{ fontSize: "25px" }} className="container">
-            I am a <code>Statistics Major</code> at{" "}
+            An experienced <code>iOS Engineer</code> with some experience in{" "}
+            <code>web development</code> and <code>AI</code>. Currently a{" "}
+            <code>Statistics</code> major at{" "}
             <code>San Jose State University</code>; onto pursue a career in{" "}
             <code>Software Engineering</code> that specializes in{" "}
-            <code>AI and Machine Learning</code>.
+            <code>applied Artificial Intelligence in Mobile devices</code>.
           </p>
-
-          <br />
-          <div className="container">
-            <p>
-              I specialize in <code>iOS Engineering</code> with some experience
-              in <code>Web</code> and <code>AI</code>.
-            </p>
-          </div>
         </div>
 
         <div
