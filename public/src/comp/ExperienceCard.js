@@ -4,7 +4,7 @@ class ExperienceCard extends Component {
   state = {};
   render() {
     return (
-      <div className="col-sm-6">
+      <div className="col-md-12">
         <div className="card text-center">
           <div className="card-header">{this.props.exp.company}</div>
           <div className="card-body">

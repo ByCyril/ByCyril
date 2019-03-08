@@ -18,7 +18,8 @@ class About extends Component {
             <code>Statistics</code> major at{" "}
             <code>San Jose State University</code>; onto pursue a career in{" "}
             <code>Software Engineering</code> that specializes in{" "}
-            <code>applied Artificial Intelligence in Mobile devices</code>.
+            <code>applied Artificial Intelligence</code> in{" "}
+            <code>Mobile devices</code>.
           </p>
         </div>
 
@@ -31,10 +32,12 @@ class About extends Component {
         >
           <h1 className="display-2">Experience</h1>
           <br />
-          <div className="container row">
-            {Experience.map(exp => (
-              <ExperienceCard key={exp.company} exp={exp} />
-            ))}
+          <div className="container">
+            <div className="row">
+              {Experience.map(exp => (
+                <ExperienceCard key={exp.company} exp={exp} />
+              ))}
+            </div>
           </div>
         </div>
       </div>

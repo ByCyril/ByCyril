@@ -1,5 +1,11 @@
 const Experience = [
   {
+    company: "Pandora Media",
+    title: "Software Engineering Intern - iOS",
+    description: "",
+    date: "June 2019 - August 2019"
+  },
+  {
     company: "Digital Media Academy",
     title: "Instructor",
     description:
@@ -12,13 +18,6 @@ const Experience = [
     description:
       "Tutored basic programming with Python, Java, and Javascript to iOS and Web Development.",
     date: "June 2017 - July 2018"
-  },
-  {
-    company: "University of California, Santa Cruz",
-    title: "Lead Academic Coach",
-    description:
-      "Mentored high school students on their academics and college aspirations.",
-    date: "September 2017 - March 2018"
   },
   {
     company: "East Side Union High School District",

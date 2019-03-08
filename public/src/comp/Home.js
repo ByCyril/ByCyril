@@ -12,6 +12,9 @@ class Home extends Component {
         <div className="App App-header">
           <h1 className="display-1">Cyril Garcia</h1>
           <p>
+            Incoming Software Engineering Intern - iOS <code>@Pandora</code>
+          </p>
+          <p>
             Creator of{" "}
             <code>
               <a
