@@ -7,7 +7,7 @@ import Home from "./comp/Home";
 import About from "./comp/About";
 import Connect from "./comp/Connect";
 import Footer from "./comp/Footer";
-
+import Projects from "./comp/Projects";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -27,7 +27,10 @@ class App extends Component {
         <MyNav />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
+
         <Route exact path="/connect" component={Connect} />
+
         <Footer />
       </div>
     );

@@ -12,7 +12,7 @@ class Home extends Component {
         <div className="App App-header">
           <h1 className="display-1">Cyril Garcia</h1>
           <p>
-            Software Engineering Intern - iOS <code>@Pandora</code>
+            iOS Software Engineering Intern <code>@Pandora</code>
           </p>
           <p>
             Creator of{" "}
@@ -45,28 +45,16 @@ class Home extends Component {
             View my{" "}
             <code>
               <a className="styles" href="resume.pdf">
-                Resume
+                resume
+              </a>
+            </code>{" "}
+            and{" "}
+            <code>
+              <a className="styles" href="https://articlesbycyril.com">
+                blog
               </a>
             </code>
           </p>
-        </div>
-
-        <div
-          className="App App-header"
-          style={{
-            width: "100%",
-            backgroundColor: "white"
-          }}
-        >
-          <h1 className="display-2" style={{ marginTop: "70px" }}>
-            Projects
-          </h1>
-          <br />
-          <div className="container row">
-            {Projects.map(proj => (
-              <ProjectCard key={proj.link} proj={proj} />
-            ))}
-          </div>
         </div>
       </div>
     );

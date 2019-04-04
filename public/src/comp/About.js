@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 
-import ExperienceCard from "./ExperienceCard";
-import Experience from "../ExperienceData.js";
-
 import "./Main.css";
 import "../App.css";
 
@@ -21,24 +18,6 @@ class About extends Component {
             <code>applied Artificial Intelligence</code> in{" "}
             <code>Mobile devices</code>.
           </p>
-        </div>
-
-        <div
-          className="App App-header"
-          style={{
-            width: "100%",
-            backgroundColor: "white"
-          }}
-        >
-          <h1 className="display-2">Experience</h1>
-          <br />
-          <div className="container">
-            <div className="row">
-              {Experience.map(exp => (
-                <ExperienceCard key={exp.company} exp={exp} />
-              ))}
-            </div>
-          </div>
         </div>
       </div>
     );

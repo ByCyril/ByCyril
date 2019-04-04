@@ -1,4 +1,4 @@
-const Projects = [
+const ProjectsData = [
   {
     title: "Memo",
     description: "Take and organize notes like text messages.",
@@ -59,4 +59,4 @@ const Projects = [
   }
 ];
 
-export default Projects;
+export default ProjectsData;
