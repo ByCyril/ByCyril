@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 import "./App.css";
 import MyNav from "./comp/MyNav";
@@ -8,6 +8,8 @@ import About from "./comp/About";
 import Connect from "./comp/Connect";
 import Footer from "./comp/Footer";
 import Projects from "./comp/Projects";
+import Talk from "./comp/Talk";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -25,12 +27,14 @@ class App extends Component {
     return (
       <div>
         <MyNav />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/projects" component={Projects} />
 
-        <Route exact path="/connect" component={Connect} />
-
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/talk" component={Talk} />
+          <Route path="/connect" component={Connect} />
+        </Switch>
         <Footer />
       </div>
     );

@@ -2,15 +2,13 @@ import React, { Component } from "react";
 
 import "./Main.css";
 import "../App.css";
-import Projects from "../ProjectsData.js";
-import ProjectCard from "./ProjectCard";
 
 class Home extends Component {
   render() {
     return (
       <div>
         <div className="App App-header">
-          <h1 className="display-1">Cyril Garcia</h1>
+          <h1 className="display-1">--</h1>
           <p>
             iOS Software Engineering Intern <code>@Pandora</code>
           </p>

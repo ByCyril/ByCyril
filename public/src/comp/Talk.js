@@ -1,21 +1,20 @@
 import React, { Component } from "react";
 import "../App.css";
-import ProjectsData from "../ProjectsData.js";
-import InfoCard from "./InfoCard.js";
+import TalkData from "../TalkData.js";
+import InfoCard from "./InfoCard";
 
-class Projects extends Component {
+class Talk extends Component {
   state = {};
   render() {
     return (
       <div className="App App-header">
-        {/* <h1 className="display-1">Projects</h1> */}
         <h1 className="display-2" style={{ marginTop: "200px" }}>
-          Projects
+          Talk
         </h1>
         <br />
         <div className="container row">
-          {ProjectsData.map(proj => (
-            <InfoCard key={proj.link} proj={proj} />
+          {TalkData.map(data => (
+            <InfoCard key={data.title} data={data} />
           ))}
         </div>
       </div>
@@ -23,4 +22,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Talk;

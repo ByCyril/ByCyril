@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../App.css";
 
-class ProjectCard extends Component {
+class InfoCard extends Component {
   render() {
-    const myImage = this.props.proj.img;
+    const myImage = this.props.data.img;
 
     const image = require("../images/" + myImage);
 
@@ -13,27 +13,25 @@ class ProjectCard extends Component {
           <img className="card-img-top" src={image} alt={myImage} />
 
           <div className="card-body">
-            <h5 className="card-title text-center">{this.props.proj.title}</h5>
+            <h5 className="card-title text-center">{this.props.data.title}</h5>
 
             <ul
               className="list-group list-group-flush text-left"
               style={{ fontSize: "14px" }}
             >
-              <li className="list-group-item">{this.props.proj.description}</li>
+              <li className="list-group-item">{this.props.data.description}</li>
+              <li className="list-group-item">{this.props.data.date}</li>
               <li className="list-group-item">
-                Released on: {this.props.proj.releaseDate}
-              </li>
-              <li className="list-group-item">
-                Technologies: {this.props.proj.technologies}
+                {this.props.data.technologies}
               </li>{" "}
             </ul>
             <br />
             <a
-              href={this.props.proj.link}
+              href={this.props.data.link}
               className="btn btn-primary btn-sm btn-block"
               style={{ backgroundColor: "#e83e8c", borderColor: "#e83e8c" }}
             >
-              {this.props.proj.buttonTitle}
+              {this.props.data.buttonTitle}
             </a>
           </div>
         </div>
@@ -43,4 +41,4 @@ class ProjectCard extends Component {
   }
 }
 
-export default ProjectCard;
+export default InfoCard;
