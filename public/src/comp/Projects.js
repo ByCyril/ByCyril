@@ -8,14 +8,13 @@ class Projects extends Component {
   render() {
     return (
       <div className="App App-header">
-        {/* <h1 className="display-1">Projects</h1> */}
         <h1 className="display-2" style={{ marginTop: "200px" }}>
           Projects
         </h1>
         <br />
         <div className="container row">
           {ProjectsData.map(proj => (
-            <InfoCard key={proj.link} proj={proj} />
+            <InfoCard key={proj.link} data={proj} />
           ))}
         </div>
       </div>

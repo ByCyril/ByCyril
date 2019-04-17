@@ -4,7 +4,7 @@ import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import MyNav from "./comp/MyNav";
 import Home from "./comp/Home";
-import About from "./comp/About";
+import Bio from "./comp/Bio";
 import Connect from "./comp/Connect";
 import Footer from "./comp/Footer";
 import Projects from "./comp/Projects";
@@ -30,7 +30,7 @@ class App extends Component {
 
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/bio" component={Bio} />
           <Route path="/projects" component={Projects} />
           <Route path="/talk" component={Talk} />
           <Route path="/connect" component={Connect} />

@@ -19,11 +19,9 @@ class InfoCard extends Component {
               className="list-group list-group-flush text-left"
               style={{ fontSize: "14px" }}
             >
-              <li className="list-group-item">{this.props.data.description}</li>
-              <li className="list-group-item">{this.props.data.date}</li>
-              <li className="list-group-item">
-                {this.props.data.technologies}
-              </li>{" "}
+              <li className="list-group-item">{this.props.data.d1}</li>
+              <li className="list-group-item">{this.props.data.d2}</li>
+              <li className="list-group-item">{this.props.data.d3}</li>{" "}
             </ul>
             <br />
             <a

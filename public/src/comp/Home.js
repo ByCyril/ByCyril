@@ -8,10 +8,8 @@ class Home extends Component {
     return (
       <div>
         <div className="App App-header">
-          <h1 className="display-1">--</h1>
-          <p>
-            iOS Software Engineering Intern <code>@Pandora</code>
-          </p>
+          <h1 className="display-1">Cyril Garcia</h1>
+          <p>iOS Software Engineer</p>
           <p>
             Creator of{" "}
             <code>
