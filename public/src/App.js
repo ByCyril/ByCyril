@@ -28,13 +28,12 @@ class App extends Component {
       <div>
         <MyNav />
 
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/bio" component={Bio} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/talk" component={Talk} />
-          <Route path="/connect" component={Connect} />
-        </Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/bio" component={Bio} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/talk" component={Talk} />
+        <Route path="/connect" component={Connect} />
+
         <Footer />
       </div>
     );

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 import TalkData from "../TalkData.js";
-import InfoCard from "./InfoCard";
+import MidInfoCard from "./MidInfoCard";
 
 class Talk extends Component {
   state = {};
@@ -14,7 +14,7 @@ class Talk extends Component {
         <br />
         <div className="container row">
           {TalkData.map(data => (
-            <InfoCard key={data.title} data={data} />
+            <MidInfoCard key={data.title} data={data} />
           ))}
         </div>
       </div>

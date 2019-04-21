@@ -7,7 +7,7 @@ const TalkData = [
     title: "Machine Learning for iOS",
     d1:
       "Create yout own pre-trained classifiers to create an image recognition app and a sentiment analysis app.",
-    img: "coreml.jpeg",
+    img: "mltalk.jpeg",
     buttonTitle: "Description"
   }
 ];
