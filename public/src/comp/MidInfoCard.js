@@ -9,9 +9,19 @@ class MidInfoCard extends Component {
 
     return (
       <center>
-        <div className="col-sm-8">
-          <div className="card">
-            <img className="card-img-top" src={image} alt={myImage} />
+        <div className="col-md-4">
+          <div className="card" style={{ borderRadius: "20px" }}>
+            <img
+              className="card-img-top"
+              src={image}
+              alt={myImage}
+              style={{
+                borderRadius: "20px",
+                marginTop: "32px",
+                width: "90%",
+                height: "90%"
+              }}
+            />
 
             <div className="card-body">
               <h5 className="card-title text-center">
@@ -30,7 +40,11 @@ class MidInfoCard extends Component {
               <a
                 href={this.props.data.link}
                 className="btn btn-primary btn-sm btn-block"
-                style={{ backgroundColor: "#e83e8c", borderColor: "#e83e8c" }}
+                style={{
+                  backgroundColor: "#e83e8c",
+                  borderColor: "#e83e8c",
+                  borderRadius: "20px"
+                }}
               >
                 {this.props.data.buttonTitle}
               </a>

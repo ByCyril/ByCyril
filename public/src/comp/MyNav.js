@@ -21,18 +21,19 @@ class MyNav extends Component {
               </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink className="nav-link" exact to="/talk">
+                Talk
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink className="nav-link" exact to="/bio">
                 Bio
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink className="nav-link" exact to="/projects">
                 Projects
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" exact to="/talk">
-                Talk
               </NavLink>
             </li>
             <li className="nav-item">

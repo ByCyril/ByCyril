@@ -1,7 +1,7 @@
 const TalkData = [
   {
     d2: "Silicon Valley Code Camp",
-    d3: "October 19, 2019",
+    d3: "(Coming Soon!) October 19, 2019",
     link:
       "https://www.siliconvalley-codecamp.com/Session/2019/machine-learning-for-ios",
     title: "Machine Learning for iOS",

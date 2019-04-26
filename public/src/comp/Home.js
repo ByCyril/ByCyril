@@ -38,13 +38,13 @@ class Home extends Component {
           </p>
 
           <p>
-            View my{" "}
+            See my{" "}
             <code>
               <a className="styles" href="resume.pdf">
                 resume
               </a>
             </code>{" "}
-            and{" "}
+            or my{" "}
             <code>
               <a className="styles" href="https://articlesbycyril.com">
                 blog

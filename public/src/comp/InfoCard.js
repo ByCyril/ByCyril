@@ -9,8 +9,20 @@ class InfoCard extends Component {
 
     return (
       <div className="col-sm-4">
-        <div className="card">
-          <img className="card-img-top" src={image} alt={myImage} />
+        <div className="card" style={{ borderRadius: "20px" }}>
+          <center>
+            <img
+              className="card-img-top"
+              style={{
+                borderRadius: "20px",
+                marginTop: "15px",
+                width: "90%",
+                height: "90%"
+              }}
+              src={image}
+              alt={myImage}
+            />
+          </center>
 
           <div className="card-body">
             <h5 className="card-title text-center">{this.props.data.title}</h5>
@@ -27,7 +39,11 @@ class InfoCard extends Component {
             <a
               href={this.props.data.link}
               className="btn btn-primary btn-sm btn-block"
-              style={{ backgroundColor: "#e83e8c", borderColor: "#e83e8c" }}
+              style={{
+                backgroundColor: "#e83e8c",
+                borderColor: "#e83e8c",
+                borderRadius: "20px"
+              }}
             >
               {this.props.data.buttonTitle}
             </a>

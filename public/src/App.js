@@ -11,18 +11,6 @@ import Projects from "./comp/Projects";
 import Talk from "./comp/Talk";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      fadeIn: true
-    };
-  }
-
-  toggle = () => {
-    this.setState({ fadeIn: !this.state.fadeIn });
-  };
-
   render() {
     return (
       <div>
