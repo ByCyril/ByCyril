@@ -23,12 +23,15 @@ class Connect extends Component {
               Twitter
             </a>
           </code>
-          , or{" "}
+          ,{" "}
           <code>
             <a className="styles" href="https://github.com/cyrilivargarcia">
               GitHub
             </a>
           </code>
+        </p>
+        <p>
+          or email: <code>garciacy at bycyril dot com</code>
         </p>
       </div>
     );

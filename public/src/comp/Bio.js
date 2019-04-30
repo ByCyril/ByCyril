@@ -22,9 +22,9 @@ class Bio extends Component {
             }}
             className="container"
           >
-            An experienced <code>iOS Software Engineer</code> with some
-            experience in <code>web development</code> and <code>AI</code>.
-            Currently a <code>Statistics</code> major at{" "}
+            An experienced <code>iOS Software Engineer</code> with experience in{" "}
+            <code>artificial intelligence</code>. Currently a{" "}
+            <code>Statistics major</code> at{" "}
             <code>San Jose State University</code>.
           </p>
 
@@ -39,10 +39,10 @@ class Bio extends Component {
             }}
             className="container"
           >
-            I plan to take my degreen to pursue a career in{" "}
+            I plan to take my degree to pursue a career in{" "}
             <code>Software Engineering</code> that specializes in{" "}
-            <code>applied Artificial Intelligence</code> in{" "}
-            <code>Mobile devices</code>.
+            <code>Artificial Intelligence</code> and{" "}
+            <code>Machine Learning</code>.
           </p>
         </div>
       </div>
