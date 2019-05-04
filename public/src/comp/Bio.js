@@ -22,25 +22,10 @@ class Bio extends Component {
             }}
             className="container"
           >
-            An experienced <code>iOS Software Engineer</code> with experience in{" "}
-            <code>artificial intelligence</code>. Currently a{" "}
-            <code>Statistics major</code> at{" "}
-            <code>San Jose State University</code>.
-          </p>
-
-          <p
-            style={{
-              fontSize: "25px",
-              backgroundColor: "white",
-              borderRadius: "20px",
-              paddingTop: "20px",
-              paddingBottom: "20px",
-              width: "70%"
-            }}
-            className="container"
-          >
-            I plan to take my degree to pursue a career in{" "}
-            <code>Software Engineering</code> that specializes in{" "}
+            An experienced <code>iOS Software Engineer</code> and a student at{" "}
+            <code>San Jose State University</code> studying{" "}
+            <code>Statistics</code>. I plan to take my degree to pursue a career
+            in <code>Software Engineering</code> that specializes in{" "}
             <code>Artificial Intelligence</code> and{" "}
             <code>Machine Learning</code>.
           </p>

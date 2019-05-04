@@ -30,6 +30,15 @@ const ProjectsData = [
     buttonTitle: "View the Site"
   },
   {
+    title: "NLC.py",
+    d1: "A high level Machine Learning framework for language classification",
+    link: "https://github.com/cyrilivargarcia/nlp",
+    d3: "Technologies: Python",
+    d2: "Released Date: April 2019",
+    img: "nlc.jpeg",
+    buttonTitle: "View on GitHub"
+  },
+  {
     title: "CoreDataBC",
     d1: "A high level framework that eases the use of CoreData",
     link: "https://github.com/cyrilivargarcia/CoreDataBC",
