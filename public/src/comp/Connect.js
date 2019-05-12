@@ -8,10 +8,10 @@ class Connect extends Component {
       <div className="App App-header">
         <h1 className="display-1">Connect</h1>
         <p>
-          Connect with me on{" "}
+          Connect with me on Twitter{" "}
           <code>
-            <a className="styles" href="https://twitter.com/cyrilivargarcia">
-              Twitter
+            <a className="styles" href="https://twitter.com/_bycyril">
+              @_bycyril
             </a>
           </code>{" "}
           or{" "}
