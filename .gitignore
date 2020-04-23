@@ -3,3 +3,4 @@
 *.gif
 old
 node_modules
+public/.DS_Store
