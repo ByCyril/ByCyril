@@ -1,3 +1,5 @@
-
+*.png
+*.jpg
+*.gif
 old
 node_modules
