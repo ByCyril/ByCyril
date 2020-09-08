@@ -1,3 +1,4 @@
+
 # 
 <p align='center'>
 <a href="https://bycyril.com/"><img height="30" src="https://bycyril.com/boy.png"></a>&nbsp;&nbsp;
@@ -9,11 +10,15 @@
 Hey there 👋,
 
 I'm an iOS Software Engineer with 7 years of experience developing and deploying iOS Apps to the App Store. I'm also studying Statistics at San Jose State University.
+
+I write a blog over at [ArticlesByCyril.com](https://articlesbycyril.com/)
+
+I use Twitter to share the work I do as an indie developer and other cool things iOS! Follow me at [@_ByCyril](https://twitter.com/_ByCyril)
  
 ---
  ## Experience
  <p>
-  <img width="250" align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
+  <img width="250" height='250' align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
 </p>
 
  ### Pandora
@@ -27,6 +32,24 @@ I'm an iOS Software Engineer with 7 years of experience developing and deploying
 * Developed a working proof of concept for hand gesture music controls
 
 ---
+## Passion Projects
+
+### [ArticlesByCyril.com](https://articlesbycyril.com/)
+A place where I write about iOS Engineering, Statistics, and my opinions about various subject matters.
+
+### [SOS Board Game](https://bycyril.com/sos)
+SOS is a classic paper and pencil game played with two or more players. The object of the game is for each player to take turns placing either an S or an O to try and create as many straight sequences of S-O-S. 
+
+### [GeekWeather 2](https://bycyril.com/geekweather2)
+GeekWeather is a simple weather app that is centered around an aesthetically pleasing user interface.
+
+### [FileStorks.com](FileStorks.com)
+Use FileStorks to share and receive photos, documents, and more with others without the hardware, software, or physical limitations.
+
+---
+
+## Pet Projects
+Basically everything on my GitHub are pet projects
 
 
 
