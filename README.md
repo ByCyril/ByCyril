@@ -21,8 +21,8 @@ I use Twitter to share the work I do as an indie developer and other cool things
   <img width="250" height='250' align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
 </p>
 
- ### Pandora
- #### iOS Software Engineer Intern - June 2019 - August 2020
+ ### Pandora Media
+ #### iOS Software Engineer Intern - (June 2019 - August 2019) - (June 2020 - August 2020)
 * Responsible for developing and designing new Ads Feature
 * Responsible for rearchitecting new features for video ad technologies
 * Wrote extensive unit tests for continuous intergration with new video ads features
