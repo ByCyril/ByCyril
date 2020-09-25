@@ -7,6 +7,7 @@
 <a href="https://www.linkedin.com/in/bycyril/"><img height="30" src="https://github.com/WaylonWalker/WaylonWalker/blob/main/icon/linkedin.png?raw=true"></a>
 </p>
 
+ # About Me
 Hey there 👋,
 
 I'm an iOS Software Engineer with 7 years of experience developing and deploying iOS Apps to the App Store. I'm also studying Statistics at San Jose State University.
@@ -16,7 +17,7 @@ I write a blog over at [ArticlesByCyril.com](https://articlesbycyril.com/)
 I use Twitter to share the work I do as an indie developer and other cool things iOS! Follow me at [@_ByCyril](https://twitter.com/_ByCyril)
  
 ---
- ## Experience
+ # Experience
  <p>
   <img width="250" height='250' align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
 </p>
@@ -32,7 +33,7 @@ I use Twitter to share the work I do as an indie developer and other cool things
 * Developed a working proof of concept for hand gesture music controls
 
 ---
-## Passion Projects
+# Passion Projects
 
 ### [ArticlesByCyril.com](https://articlesbycyril.com/)
 A place where I write about iOS Engineering, Statistics, and my opinions about various subject matters.
@@ -48,7 +49,7 @@ Use FileStorks to share and receive photos, documents, and more with others with
 
 ---
 
-## Pet Projects
+# Pet Projects
 Basically everything on my GitHub are pet projects
 
 ### [Color Predictor](https://colorpredictorjs.web.app/)
