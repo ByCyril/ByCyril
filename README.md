@@ -51,5 +51,19 @@ Use FileStorks to share and receive photos, documents, and more with others with
 ## Pet Projects
 Basically everything on my GitHub are pet projects
 
+### [Color Predictor](https://colorpredictorjs.web.app/)
+Constructed a neural network from the ground up using TensorflowJS to predict color names
+
+### [K-Means Visualized](https://js-means.web.app/)
+Visualize how K-Means algorithm works!
+
+### [Sort Machine](https://sortmachine.firebaseapp.com/)
+Visualizing sorting algorithms
+
+### [Hero Coin](https://herocoinbc.firebaseapp.com/)
+Perform your own hand gestures to control the ball to catch the coin!
+
+### [Snake AI](https://snake-ai.web.app/)
+Snake game with a mind of its own!
 
 
