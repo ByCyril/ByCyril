@@ -52,6 +52,9 @@ Use FileStorks to share and receive photos, documents, and more with others with
 # Pet Projects
 Basically everything on my GitHub are pet projects
 
+### [Physics Board](https://github.com/ByCyril/Physics-Board)
+Created a fun physics board game. [Demo](https://twitter.com/_ByCyril/status/1309704539080073216?s=20)
+
 ### [Color Predictor](https://colorpredictorjs.web.app/)
 Constructed a neural network from the ground up using TensorflowJS to predict color names
 
