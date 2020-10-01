@@ -1,0 +1,28 @@
+{
+  "hosting": {
+      "cleanUrls": true,
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**", "**/old/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "https://bycyril.com/resume",
+        "destination": "https://bycyril.com/resume.pdf"
+      }
+    ],
+    "redirects": [ {
+        "source": "/resume",
+        "destination": "https://bycyril.com/resume.pdf",
+        "type": 301
+    }],
+    "headers": [
+      {
+        "source": "/service-worker.js",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      }
+    ]
+  }
+}
