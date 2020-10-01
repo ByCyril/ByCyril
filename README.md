@@ -15,6 +15,18 @@ I'm an iOS Software Engineer with 7 years of experience developing and deploying
 I write a blog over at [ArticlesByCyril.com](https://articlesbycyril.com/)
 
 I use Twitter to share the work I do as an indie developer and other cool things iOS! Follow me at [@_ByCyril](https://twitter.com/_ByCyril)
+
+```
+let cyrilGarcia: SoftwareEngineer = {
+     var profile = SoftwareEngineer()
+     profile.yearsOfExperience = 7
+     profile.degree = BS.Statistics
+     profile.university = SJSU()
+     profile.languages = [.swift, .objc, .javascript, .python, .java]
+     profile.twitter = "@_ByCyril"
+     return profile
+}()
+```
  
 ---
  # Experience
