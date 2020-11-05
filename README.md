@@ -11,22 +11,6 @@
 Hey there 👋,
 
 I'm an iOS Software Engineer with 7 years of experience developing and deploying iOS Apps to the App Store. I'm also studying Statistics at San Jose State University.
-
-I write a blog over at [ArticlesByCyril.com](https://articlesbycyril.com/)
-
-I use Twitter to share the work I do as an indie developer and other cool things iOS! Follow me at [@_ByCyril](https://twitter.com/_ByCyril)
-
-```
-let cyrilGarcia: SoftwareEngineer = {
-     var profile = SoftwareEngineer()
-     profile.yearsOfExperience = 8
-     profile.degree = BS.Statistics
-     profile.university = SJSU()
-     profile.languages = [.swift, .objc, .javascript, .python, .java]
-     profile.twitter = "@_ByCyril"
-     return profile
-}()
-```
  
  # Experience
 
@@ -43,7 +27,7 @@ let cyrilGarcia: SoftwareEngineer = {
 <p>
   <img width="200" height='200' align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
 </p>
-<br>
+
  ### Pandora Media
  #### iOS Software Engineer Intern - (June 2019 - August 2019) - (June 2020 - August 2020)
 * Responsible for developing and designing new Ads Feature
