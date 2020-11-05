@@ -19,7 +19,7 @@ I use Twitter to share the work I do as an indie developer and other cool things
 ```
 let cyrilGarcia: SoftwareEngineer = {
      var profile = SoftwareEngineer()
-     profile.yearsOfExperience = 7
+     profile.yearsOfExperience = 8
      profile.degree = BS.Statistics
      profile.university = SJSU()
      profile.languages = [.swift, .objc, .javascript, .python, .java]
@@ -28,12 +28,22 @@ let cyrilGarcia: SoftwareEngineer = {
 }()
 ```
  
----
  # Experience
+
  <p>
-  <img width="250" height='250' align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
+  <img width="200" height='200' align='left' src="https://res-3.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/v1432229954/f7pong4lavhi5taerzqc.png">
 </p>
 
+ ### Invysta Tech
+ #### iOS Software Engineer - (October 2020 - Present)
+* Developing the iOS and macOS client for authentication system
+* Developed internal iOS/macOS networking and identifier layers for modularity
+* Collaborated across back-end and Android teams to ensure parody across platforms
+
+<p>
+  <img width="200" height='200' align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
+</p>
+<br>
  ### Pandora Media
  #### iOS Software Engineer Intern - (June 2019 - August 2019) - (June 2020 - August 2020)
 * Responsible for developing and designing new Ads Feature
