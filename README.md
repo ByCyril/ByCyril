@@ -23,7 +23,7 @@ I'm an iOS Software Engineer with 7 years of experience developing and deploying
 * Developing the iOS and macOS client for authentication system
 * Developed internal iOS/macOS networking and identifier layers for modularity
 * Collaborated across back-end and Android teams to ensure parody across platforms
-
+---
 <p>
   <img width="200" height='200' align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
 </p>
