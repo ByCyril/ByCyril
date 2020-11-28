@@ -16,7 +16,7 @@ var client = contentful.createClient({
       let preview = entry.fields.preview 
       let appUrl = "/view?" + "app?" + entry.sys.id
 
-      let button = "<a href='" + appUrl + "' class='button primary fit small' target='_blank'>View App</a>"
+      let button = "<a href='" + appUrl + "' class='button primary fit small'>View App</a>"
       let imageUrl = "https://" + entry.fields.screenshots[0].fields.file.url
       
     let object = "<header><p><span class='image left'><img src='" + imageUrl + "' alt='' /></span><h2>" + appname + "</h2>" + preview + "</p>"+ button  + "</header>"

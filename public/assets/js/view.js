@@ -33,12 +33,11 @@ function retrieveApp(appId) {
         document.getElementById('images-container').innerHTML += prev
         document.getElementById('images-container').innerHTML += next
         
-        let button = "<br><a href='" + entry.fields.link + "' class='button fit small' target='_blank'>" + entry.fields.linktext +  " </a><br><br>"
+        let button = "<br><a href='" + entry.fields.link + "' class='button fit small' >" + entry.fields.linktext +  " </a><br><br>"
         document.getElementById('content').innerHTML += button
 
         return documentToHtmlString(entry.fields.description);
     }).then(renderedHtml => {
-        
         document.getElementById('content').innerHTML += renderedHtml;
         plusSlides(0)
     })
