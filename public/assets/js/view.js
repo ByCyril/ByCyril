@@ -19,7 +19,7 @@ function checkContentType() {
 function retrieveApp(appId) {
     client.getEntry(appId).then(entry => {
         document.getElementById('title').innerHTML = entry.fields.appname;
-
+        document.title = entry.fields.appname + " | by Cyril"
         entry.fields.screenshots.forEach(function (image,i) {
             let imgUrl = "http:" + image.fields.file.url
             let order = (i + 1).toString() + " / " + entry.fields.screenshots.length.toString()
@@ -47,6 +47,7 @@ function retrieveApp(appId) {
 function retrieveArticle(articleId) {
     client.getEntry(articleId).then(entry => {
         document.getElementById('title').innerHTML = entry.fields.title;
+        document.title = entry.fields.title + " | by Cyril"
         document.getElementById('subtitle').innerHTML = entry.fields.subtitle;
         document.getElementById('sys').innerHTML = formatTimestamp(entry.sys.createdAt.split('T')[0])
         return documentToHtmlString(entry.fields.content);

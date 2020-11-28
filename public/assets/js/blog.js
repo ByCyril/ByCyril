@@ -15,7 +15,7 @@ client.getEntries(contentType).then(function (entries) {
     let title = entry.fields.title
     let subtitle = entry.fields.subtitle
     let preview = entry.fields.preview 
-    let articleUrl = "/view.html?" + "article?" + entry.sys.id
+    let articleUrl = "/view?" + "article?" + entry.sys.id
     let timestamp = formatTimestamp(entry.sys.createdAt.split("T")[0])
     let button = "<a href='" + articleUrl + "' class='button primary fit small' target='_blank'>View Article</a>"
     let object = "<header> <h3>" + title + "</h3><p>" + subtitle + "</p><h5>Date: " + timestamp + "</h5></header><p>" + preview + "</p>" + button
