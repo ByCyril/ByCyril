@@ -40,6 +40,10 @@ function retrieveApp(appId) {
     }).then(renderedHtml => {
         document.getElementById('content').innerHTML += renderedHtml;
         plusSlides(0)
+    }).catch(error => {
+        console.log("error here",error.message)
+        document.getElementById('title').innerHTML = error;
+        document.title = "Error"
     })
 }
 
@@ -49,10 +53,23 @@ function retrieveArticle(articleId) {
         document.title = entry.fields.title + " | by Cyril"
         document.getElementById('subtitle').innerHTML = entry.fields.subtitle;
         document.getElementById('sys').innerHTML = formatTimestamp(entry.sys.createdAt.split('T')[0])
-        return documentToHtmlString(entry.fields.content);
+        
+        let options = {
+            renderNode: {
+              'embedded-entry-inline': (node) =>
+                `<pre><code>${node.data.target.fields.code}</code></pre>`
+            }
+          }
+
+        console.log(entry.fields,options)
+
+        return documentToHtmlString(entry.fields.content,options);
     })
     .then(renderedHtml => {
         document.getElementById('content').innerHTML += renderedHtml;
+    }).catch(error => {
+        document.getElementById('title').innerHTML = error;
+        document.title = "Error"
     })
 }
 
