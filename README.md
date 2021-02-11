@@ -20,9 +20,9 @@ I'm an iOS Software Engineer with 7 years of experience developing and deploying
 
  ### Invysta Tech
  #### iOS Software Engineer - (October 2020 - Present)
-* Developing the iOS and macOS client for authentication system
+* Developed the iOS and macOS client for authentication system
 * Developed internal iOS/macOS networking and identifier layers for modularity
-* Collaborated across back-end and Android teams to ensure parody across platforms
+* Collaborated across backend and Android teams to ensure parity across platforms
 ---
 <p>
   <img width="200" height='200' align='left' src="https://www.pandora.com/img/pandora_logo_1024.png">
