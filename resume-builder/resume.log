@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 APR 2021 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  14 JUN 2021 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/cy/Desktop/1-page/resume.tex
-(/Users/cy/Desktop/1-page/resume.tex
+**/Users/cy/Documents/GitHub/ByCyril/resume-builder/resume.tex
+(/Users/cy/Documents/GitHub/ByCyril/resume-builder/resume.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -160,7 +160,7 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 LaTeX Warning: Unused global option(s):
     [9pt].
 
-(/Users/cy/Desktop/1-page/resume.aux)
+(/Users/cy/Documents/GitHub/ByCyril/resume-builder/resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -231,7 +231,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
- (/Users/cy/Desktop/1-page/resume.out) (/Users/cy/Desktop/1-page/resume.out)
+ (/Users/cy/Documents/GitHub/ByCyril/resume-builder/resume.out) (/Users/cy/Documents/GitHub/ByCyril/resume-builder/resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
@@ -243,28 +243,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 68.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 68.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
- (/Users/cy/Desktop/1-page/resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+ (/Users/cy/Documents/GitHub/ByCyril/resume-builder/resume.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
  ) 
 Here is how much of TeX's memory you used:
  5211 strings out of 480608
- 81108 string characters out of 5903631
- 350381 words of memory out of 5000000
+ 81433 string characters out of 5903631
+ 351381 words of memory out of 5000000
  21033 multiletter control sequences out of 15000+600000
  553673 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,34p,243b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,34p,268b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on /Users/cy/Desktop/1-page/resume.pdf (1 page, 163318 bytes).
+Output written on /Users/cy/Documents/GitHub/ByCyril/resume-builder/resume.pdf (1 page, 162179 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream

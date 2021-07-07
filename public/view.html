@@ -36,10 +36,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="apps.html">Apps</a></li>
             <li><a href="blog.html">Blog</a></li>
-            <li><a href="talks.html">Talks</a></li>
-            <li><a href="https://twitter.com/_ByCyril" target="_blank" class="button primary">Twitter</a></li>
         </ul>
         </nav>
      </header>
@@ -62,13 +59,17 @@
       <!-- Footer -->
       <footer id="footer">
         <ul class="icons">
-          <li><a href="https://twitter.com/_ByCyril" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-          <li><a href="https://www.linkedin.com/in/bycyril/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-          <li><a href="http://github.com/bycyril" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-          <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+          <li><a href="https://twitter.com/_ByCyril" class="icon brands alt fa-twitter" target='_blank'><span class="label">Twitter</span></a></li>
+          <li><a href="https://www.linkedin.com/in/bycyril/" class="icon brands alt fa-linkedin-in" target='_blank'><span class="label">LinkedIn</span></a></li>
+          <li><a href="https://github.com/bycyril" class="icon brands alt fa-github" target='_blank'><span class="label">GitHub</span></a></li>
+          <li><a href="https://instagram.com/_bycyril" class="icon brands alt fa-instagram" target='_blank'><span class="label">Instagram</span></a></li>
         </ul>
         <ul class="copyright">
-          <li>By Cyril &copy; 2020</li>
+          <li>By Cyril &copy; <script>
+            document
+              .getElementById("copyright")
+              .appendChild(document.createTextNode(new Date().getFullYear()));
+          </script></li>
         </ul>
       </footer>
 
@@ -84,6 +85,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
       <script src="assets/js/view.js"></script>
-      <!-- <script src="assets/js/Slideshow.js"></script> -->
+      <script src="assets/js/Slideshow.js"></script>
 	</body>
 </html>

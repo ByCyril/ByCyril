@@ -29,10 +29,7 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
-					<li><a href="apps.html">Apps</a></li>
 					<li><a href="blog.html">Blog</a></li>
-					<li><a href="talks.html">Talks</a></li>
-					<li><a href="https://twitter.com/_ByCyril" target="_blank" class="button primary">Twitter</a></li>
 				</ul>
 				</nav>
 			 </header>
@@ -50,7 +47,7 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
-											<a href="#" class="image fit"><img src="images/img.jpg" alt="" /></a>
+											<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
 											<section>
 												<center><h2>Cyril Garcia</h2></center>
 												<h3>Fun Facts</h3>
@@ -103,7 +100,7 @@
 										<h3>About</h3>
 										<p>As an iOS Software Engineer, I have developed and published well over 20+ apps in the iOS App Store over the course of 8 years, both as a freelancer and an independent developer. While my academic background is in the area of Mathematics and Statistics, my career path is in the world of iOS Engineering, with a central focus in programming design and architecture.</p>
 										<h3>Software Engineering Philosophy</h3>
-										<p>Software Engineering is usually marketed–particularly in Universities–as a problem solving profession that requires great problem solving skills; and it is evident in the types of classes a typical Computer Science student are required to take for their degree. While this is largely true, I find it very limiting of what one person can achieve and demanding of the person for what they can do. Instead, I see the profession as an art form with artistic value in not just the visuals and experience of the end product, but the implementations and the development process of the application. This idea is evident in the different types of sorting algorithms we see from Bubble Sort, Merge Sort, and Heap Sort. All of which achieve the same thing, but run more efficiently than others given different scenarios.</p>
+										<p>Software Engineering is usually marketed as a problem solving profession–particularly in Universities–that require great problem solving skills; and it is evident in the types of classes a typical Computer Science student are required to take for their degree. While this is largely true, I find it very limiting of what one person can achieve and demanding of the person for what they can do. Instead, I see the profession as an artform with artistic value in not just the visuals and experience of the end product, but the implementations and the development process of the software. Whether that be from architecture to unique algorithms that enforces known concepts like breadth-first search and the likes.</p>
 										<h3>Work Ethic</h3>
 										<p>Kobe Bryant is one of my biggest role models, not because of how great he was on the basketball court, but because of his work ethic. I’ve modeled my work ethic to Kobe Bryant, not in the sense of competing against other developers for a job or trying to create a better version of an existing app, but to better myself as a developer.</p>
 										<p>Kobe started playing in the NBA at the age of 17; the youngest guy in the league at that time. He was not even at legal age to drink or go to the clubs. So whenever his teammates are out at the club having fun, he’d be in the gym practicing and working on his game. Kobe’s ultimate goal is to win as many championships as possible, which meant being the best player in the team and in the league. So Kobe’s mentality (or famously known as the Mamba Mentality) is centered around competing, and that drive to compete made him work extremely hard to be the best player he can be; which ultimately led to 5 NBA Championships and many more accomplishments.</p>
@@ -123,13 +120,17 @@
 				<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-					<li><a href="https://twitter.com/_ByCyril" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="https://www.linkedin.com/in/bycyril/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-					<li><a href="http://github.com/bycyril" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://twitter.com/_ByCyril" class="icon brands alt fa-twitter" target='_blank'><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/bycyril/" class="icon brands alt fa-linkedin-in" target='_blank'><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/bycyril" class="icon brands alt fa-github" target='_blank'><span class="label">GitHub</span></a></li>
+						<li><a href="https://instagram.com/_bycyril" class="icon brands alt fa-instagram" target='_blank'><span class="label">Instagram</span></a></li>
 					</ul>
 					<ul class="copyright">
-					<li>By Cyril &copy; 2020</li>
+					<li>By Cyril &copy; <script>
+						document
+						  .getElementById("copyright")
+						  .appendChild(document.createTextNode(new Date().getFullYear()));
+					  </script></li>
 					</ul>
 				</footer>
 		</div>
