@@ -65,7 +65,11 @@
               <li><a href="https://instagram.com/_bycyril" class="icon brands alt fa-instagram" target='_blank'><span class="label">Instagram</span></a></li>
         </ul>
         <ul class="copyright">
-          <li>By Cyril &copy; 2021</li>
+          <li>By Cyril &copy; <script>
+            document
+              .getElementById("copyright")
+              .appendChild(document.createTextNode(new Date().getFullYear()));
+          </script></li>
         </ul>
       </footer>
 
